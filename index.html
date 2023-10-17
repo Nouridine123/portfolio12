@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio de [Nouridine Sy]</title> 
+</head>
+<body>
+    <header>
+        <h1>portofolio de [Nouridine Sy</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#accueil">accueil</a></li>
+            
+            <li><a href="#à-propos">à propos</a></li> 
+            <li><a href="#travail">travail</a></li>
+            <li><a href="#cv">cv</a></li>
+            
+            <li><a href="#contact">contact</a></li>
+
+        </ul>
+        
+    </nav>
+    <section id="accueil">
+        <h2>Accueil</h2>
+        <p>bienvenue sur mon portofolio.</p>
+        </section>
+        
+<section id="à-propos"> 
+    <h2>à-propos</h2>
+    <p>je me nomme Nouridine Saidou sy et je suis un étudiant en fullstack javascript à GOMYCODE.</p>
+</section>
+<section id="travail"> 
+    <h2>mon trvail</h2>
+<audio controls>
+    <source src="c:\Users\user\Downloads\Un Bon Portfolio Créatif, qu'est ce que c'est _.mp4" type="audio mp4">
+    </audio>
+    <p>je suis un développeur fullstack. En effet je travail dans des plateformes en ligne comme upwork dans le domaine du freelance.</p>
+</section> 
+<section id="cv">
+    <h2>cv</h2>
+    <form action="traitement-du-cv.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" Name=nom required>
+        <label for="prénom">prénom :</label>
+        <input type="text" id="prénom" name="prénom" required> 
+        <label for="cv-file">télécharger votre cv :</label>
+        <input type="file" id="cv-file" name="cv-file" required accept=".pdf">
+        <button type="submit">envoyer le cv</button>
+</form>
+</section> 
+<section id="contact">
+    <h2>contact</h2>
+    <form action="traitement-du-contact.php" method="post">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message :</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <button type="submit">envoyer le message</button>
+
+    </form>
+</section>
+
+<footer>
+    <p>&copy;2023 SY </p>
+</footer>
+</body>
+
+</html>
