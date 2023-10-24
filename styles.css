@@ -5,21 +5,36 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+nav {
+    display: flex;
+    
+    
+margin-left: 10px;
+
+}
+nav img{
+
+}
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: right;
-    background-color: #333;
+    margin-left: 600px;
+    
+    
+
 } 
+
 nav li {
+    display: inline;
+    
     margin: 0 10px;
+    
 }
 
 nav a {
 text-decoration: none;
-    color: white;
+    color: black
+    
 }
 .accueil1 {
     background-color:gray;
