@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.mini-studio-photo.fr/wp-content/uploads/2022/06/fond-blanc-studio-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    background-color: #333;
+} 
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+text-decoration: none;
+    color: white;
+}
+.accueil1 {
+    background-color:gray;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+.à-propos1 {
+    Background-color:gray;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+    .travail1{ 
+        text-align: center;
+        background-color:gray;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+ }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#accueil {
+    text-align: center;
+}
+#à-propos {
+    text-align: center;
+}
+#mon travail {
+    text-align: center;
+}
+
+
